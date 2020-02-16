@@ -16,5 +16,25 @@ namespace PolybiusSquare
         {
             InitializeComponent();
         }
+
+        private void Crypt_Click(object sender, EventArgs e)
+        {
+            var square = new PolybiusSquare();
+
+            var decryptedText = DecryptedText.Text.ToUpper();
+            var cryptKey = CryptKey.Text.ToUpper();
+
+            CryptedText.Text = square.PolibiusEncrypt(decryptedText, cryptKey);
+        }
+
+        private void Decrypt_Click(object sender, EventArgs e)
+        {
+            var square = new PolybiusSquare();
+
+            var cryptedText = CryptedText.Text.ToUpper();
+            var decryptKey = DecryptKey.Text.ToUpper();
+
+            DecryptedText.Text = square.PolybiusDecrypt(cryptedText, decryptKey);
+        }
     }
 }
