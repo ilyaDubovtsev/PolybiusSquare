@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "polybius-square", "polybius-square\polybius-square.csproj", "{4C811A26-FA5A-4112-87CA-5D5659A512F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C811A26-FA5A-4112-87CA-5D5659A512F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C811A26-FA5A-4112-87CA-5D5659A512F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C811A26-FA5A-4112-87CA-5D5659A512F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C811A26-FA5A-4112-87CA-5D5659A512F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4E5FA2B-DDAB-4919-9885-11A01F4F5978}
+	EndGlobalSection
+EndGlobal
