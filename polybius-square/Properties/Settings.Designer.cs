@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace polybius_square.Properties
+namespace PolybiusSquare.Properties
 {
 
 

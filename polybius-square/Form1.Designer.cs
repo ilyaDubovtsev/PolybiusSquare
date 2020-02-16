@@ -1,4 +1,4 @@
-﻿namespace polybius_square
+﻿namespace PolybiusSquare
 {
     partial class Form1
     {
